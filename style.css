@@ -7,8 +7,7 @@ body {
     font-family: "Afacad Flux", serif;
     background-color: #f8fafc;
 }
-#section1 {
-    max-height: 200px;
+#header1 {
     width: 100vw;
     display: grid;
     place-items: center;
@@ -21,8 +20,8 @@ body {
     margin: 20px auto;
     padding: 20px;
 }
-.div{
-    max-width: 800px;  
+.div {
+    max-width: 800px;
     text-align: center;
 }
 h1 {
@@ -31,15 +30,15 @@ h1 {
 }
 h2 {
     font-size: 1.5rem;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 p {
     margin: 20px auto;
-    font-size: 1rem;
+    font-size: 1rem;background-color: #f8fafc;
 }
 a {
     text-decoration: none;
-    color: #4e80ee;
+    color: #4e80ee;background-color: #f8fafc;
 }
 ol,
 li {
@@ -51,4 +50,13 @@ li {
 }
 hr {
     background-color: #d2d5da;
+}
+@media (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    #header1{
+        padding: 30px;
+    }
 }
