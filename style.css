@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #f8f9fa;
+    background-color: #f8fafc;
     font-family: "Afacad Flux", serif;
 }
 #section1 {
-    height: 100%;
+    max-height: 200px;
     width: 100vw;
     text-align: center;
     background-color: white;
